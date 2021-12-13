@@ -51,6 +51,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
+
 ## Code of Conduct
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
@@ -62,3 +63,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Cordial saludo. Hicimos la actividad en pareja:
+Cindy Natally Estrada Jiménez y Carlos Alberto Barrera Ladino.
+Para instalar la aplicación se deben seguir los 12 pasos presentados en el enunciado de esta tarea. Además, para lograr visualizar los mensajes de error en la interfaz de Postman (si algún dato enviado por el cliente está incorrecto) es necesario configurar una llave en el Header de Postman para lograr visualizar los mensajes de error en la interfaz. 
+En el siguiente enlace presentan cómo configurar la llave https://learning.postman.com/docs/sending-requests/requests/#configuring-request-headers. 
+En el campo Key debe ir el valor X-Requested-With y en el campo Value el valor XMLHttpRequest. Para más información puede visitar la pregunta de MrRobot21 y la respuesta de NicoDevs en el foro: https://laracasts.com/discuss/channels/laravel/how-to-send-validation-errors-as-json-to-view. Cabe resaltar que la creación de órdenes en la base de datos no requirió del uso de transacciones y rollbacks por la manera en que está configurado el código, si el usuario presenta algún error como pedir una cantidad mayor que la que hay en stock, o enviar un correo inválido, toda la transacción no se lleva a cabo.
+
